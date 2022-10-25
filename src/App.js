@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import MyStory from "./components/MyStory";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Contact />
           </Route>
         </Switch>
+        <Footer />
       </BrowserRouter>
     </div>
   );
