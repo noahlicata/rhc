@@ -28,7 +28,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="/rrc_health_coaching/contact" className="hover:underline">
+            <a href="/RRCHealthCoaching/contact" className="hover:underline">
               Contact
             </a>
           </li>
