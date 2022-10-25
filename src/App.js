@@ -11,13 +11,13 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/rrc_health_coaching">
             <Home />
           </Route>
-          <Route exact path="/mystory">
+          <Route exact path="/rrc_health_coaching/mystory">
             <MyStory />
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="/rrc_health_coaching/contact">
             <Contact />
           </Route>
         </Switch>
