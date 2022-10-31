@@ -1,10 +1,11 @@
 import React from "react";
 import pic from "../fillerpic.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
-      <section className="bg-white dark:bg-gray-900">
+      {/* <section className="bg-white dark:bg-gray-900">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-6">
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
             RRC Health Coaching
@@ -15,9 +16,9 @@ const Home = () => {
             Curabitur pellentesque venenatis rutrum.
           </p>
           <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <a
-              href="..."
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+            <Link
+              to="/mystory"
+              className="inline-flex justify-center items-center py-3 px-5 text-base text-white font-medium text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
               Learn more
               <svg
@@ -32,7 +33,7 @@ const Home = () => {
                   clipRule="evenodd"
                 ></path>
               </svg>
-            </a>
+            </Link>
             <a
               href="..."
               className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
@@ -47,6 +48,49 @@ const Home = () => {
               </svg>
               Meet Me!
             </a>
+          </div>
+        </div>
+      </section> */}
+
+      <section className="bg-white dark:bg-gray-900">
+        <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+          <img
+            className="w-full rounded-lg dark:hidden"
+            src={pic}
+            alt="dashboard"
+          />
+          <img
+            className="w-full rounded-lg hidden dark:block"
+            src={pic}
+            alt="dashboard"
+          />
+          <div className="mt-4 md:mt-0">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              RRC Health Coaching
+            </h2>
+            <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+              At RRC Health Coaching, duis id nulla sed nunc porta ultricies.
+              Morbi nibh nulla, ultrices sit amet neque a, congue bibendum
+              magna. Curabitur pellentesque venenatis rutrum.
+            </p>
+            <Link
+              to="/mystory"
+              className="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900"
+            >
+              Meet Me!
+              <svg
+                className="ml-2 -mr-1 w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clipRule="evenodd"
+                ></path>
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
@@ -149,7 +193,7 @@ const Home = () => {
               <figcaption className="flex justify-center items-center space-x-3">
                 <img
                   className="w-9 h-9 rounded-full"
-                  src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png?w=360"
+                  src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg"
                   alt="..."
                 />
                 <div className="space-y-0.5 font-medium dark:text-white text-left">
@@ -181,7 +225,7 @@ const Home = () => {
               <figcaption className="flex justify-center items-center space-x-3">
                 <img
                   className="w-9 h-9 rounded-full"
-                  src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png?w=360"
+                  src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg"
                   alt="..."
                 />
                 <div className="space-y-0.5 font-medium dark:text-white text-left">
@@ -213,7 +257,7 @@ const Home = () => {
               <figcaption className="flex justify-center items-center space-x-3">
                 <img
                   className="w-9 h-9 rounded-full"
-                  src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png?w=360"
+                  src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg"
                   alt="..."
                 />
                 <div className="space-y-0.5 font-medium dark:text-white text-left">
@@ -242,7 +286,7 @@ const Home = () => {
               <figcaption className="flex justify-center items-center space-x-3">
                 <img
                   className="w-9 h-9 rounded-full"
-                  src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png?w=360"
+                  src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg"
                   alt="..."
                 />
                 <div className="space-y-0.5 font-medium dark:text-white text-left">
