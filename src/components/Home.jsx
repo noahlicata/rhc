@@ -1,77 +1,20 @@
 import React from "react";
-import pic from "../fillerpic.png";
+import pic from "../profilepic.jpeg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
-      {/* <section className="bg-white dark:bg-gray-900">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-6">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-            RRC Health Coaching
-          </h1>
-          <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-            At RRC Health Coaching, duis id nulla sed nunc porta ultricies.
-            Morbi nibh nulla, ultrices sit amet neque a, congue bibendum magna.
-            Curabitur pellentesque venenatis rutrum.
-          </p>
-          <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <Link
-              to="/mystory"
-              className="inline-flex justify-center items-center py-3 px-5 text-base text-white font-medium text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-            >
-              Learn more
-              <svg
-                className="ml-2 -mr-1 w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                ></path>
-              </svg>
-            </Link>
-            <a
-              href="..."
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-            >
-              <svg
-                className="mr-2 -ml-1 w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path>
-              </svg>
-              Meet Me!
-            </a>
-          </div>
-        </div>
-      </section> */}
-
       <section className="bg-white dark:bg-gray-900">
         <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-          <img
-            className="w-full rounded-lg dark:hidden"
-            src={pic}
-            alt="dashboard"
-          />
-          <img
-            className="w-full rounded-lg hidden dark:block"
-            src={pic}
-            alt="dashboard"
-          />
+          <img className="rounded-lg dark:hidden" src={pic} alt="dashboard" />
           <div className="mt-4 md:mt-0">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
               RRC Health Coaching
             </h2>
             <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-              At RRC Health Coaching, duis id nulla sed nunc porta ultricies.
-              Morbi nibh nulla, ultrices sit amet neque a, congue bibendum
-              magna. Curabitur pellentesque venenatis rutrum.
+              Let's face it, change is rough. It's not impossible; it's just
+              challenging.
             </p>
             <Link
               to="/mystory"
@@ -99,26 +42,32 @@ const Home = () => {
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-3">
           <div className="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
-              What is Health Coaching?
+              Health Goals
             </h2>
+            <ul className="mb-4 font-light">
+              <li>- Eat a nourishing diet</li>
+              <li>- Avoid junk food</li>
+              <li>- Get good sleep</li>
+              <li>- Figure out a sustainable exercise routine</li>
+              <li>- Spend time outside</li>
+              <li>- Limit electronics at night</li>
+              <li>- Support my gut</li>
+              <li>- Manage my stress</li>
+              <li>- Take time to play</li>
+              <li>- Avoid toxins</li>
+              <li>- Be intentional about my social connections</li>
+            </ul>
             <p className="mb-4 font-light">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec
-              felis turpis. Pellentesque habitant morbi tristique senectus et
-              netus et malesuada fames ac turpis egestas. Nam lobortis vitae
-              magna at pharetra. Cras hendrerit turpis blandit neque porta
-              tempus. Quisque interdum est eu magna volutpat, nec euismod nisi
-              lobortis. Nullam vitae tempus tellus, sit amet lobortis augue.
-              Quisque auctor ex eros, in gravida lectus blandit ac. Sed massa
-              lectus, condimentum ut aliquet sed, bibendum sed neque.
-              Suspendisse ut sem nibh. Vestibulum bibendum nulla erat, in
-              sollicitudin turpis hendrerit a. Pellentesque posuere sollicitudin
-              urna vitae vestibulum.
-            </p>
-            <p className="mb-4 font-medium">
-              Aenean id ex posuere, ultricies nunc eget, fringilla arcu. Sed
-              finibus lobortis ex, id imperdiet enim congue nec. Praesent
-              tincidunt semper quam, non bibendum massa mattis eget. Proin
-              iaculis quam luctus velit vestibulum tempus.
+              ...and the list can go on and on. These are all valid, worthwhile
+              and proven goals that will enrich your quality of life and could
+              even extend it. Perhaps you are already working on some of these
+              goals, but you want to add a few more into your life. Maybe you
+              have a deep interest in them because you've read about the
+              advantages of enacting some of them, but you're not sure how to go
+              about it. It's possible you've seen a friend or two take on a
+              couple of these items on the checklist, they are thriving, and you
+              want that for yourself. So what are the reasons it isn't happening
+              for you?
             </p>
           </div>
         </div>
@@ -128,31 +77,80 @@ const Home = () => {
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-              What can Health Coaching do fo you?
+              WHY? Now that's a great question!
             </h2>
-            <p className="mb-4">
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-              posuere cubilia curae; Quisque turpis nisi, blandit vel
-              consectetur et, rutrum vitae elit. Integer velit libero, luctus
-              sit amet hendrerit pulvinar, bibendum vitae neque. Mauris molestie
-              bibendum nibh eget sodales.
-            </p>
-            <p>
-              Cras posuere tortor et ex commodo luctus non nec erat. Mauris a
-              urna ultricies, tristique enim eget, dapibus dui.
+            <ul className="mb-4 font-light">
+              <li>
+                Have you ever given yourself the opportunity to figure out your
+                “WHY”?
+              </li>
+              <li>
+                What are the reasons you'd want to make changes to your current
+                health situation?
+              </li>
+              <li>Where do you see yourself, years down the road?</li>
+              <li>How are you living your life in that dream-future?</li>
+              <li>What's it like to be the ideal YOU in the coming years?</li>
+              <li>What has to change inside you?</li>
+              <li>
+                What new belief (value, strength, assumption, identity) is
+                necessary?
+              </li>
+              <li>
+                How does this shift you desire change the story you're living
+                now?
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white dark:bg-gray-900">
+        <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+          <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              Your WHY, your intention, is where your motivation comes from.
+            </h2>
+            <p className="mb-4 font-light">
+              There are infinite ways of traveling towards a destination. With
+              clear intentions and trust in your reasons for making the journey,
+              you'll find the wherewithal and energy to move in your chosen
+              “right” direction.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-4 mt-8">
-            <img
-              className="w-full rounded-lg"
-              src={pic}
-              alt="office content 1"
-            />
-            <img
-              className="mt-4 w-full lg:mt-10 rounded-lg"
-              src={pic}
-              alt="office content 2"
-            />
+        </div>
+      </section>
+
+      <section className="bg-white dark:bg-gray-900">
+        <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+          <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              How does health coaching work to get you there?
+            </h2>
+            <p className="mb-4 font-light">
+              We'll start with a guided thought journey - some time for you to
+              step into a place of possibility where you get to dream about your
+              ideal future, give yourself permission to imagine your best life.
+              I'll hold that space of possibility for you so you can say (even
+              declare!) what you hope for. There's no judgment, just
+              unconditional acceptance for you and your inner wisdom.
+            </p>
+            <p className="mb-4 font-light">
+              Then I'll help you pull out some Long Term Goals, maybe 3-6 months
+              out or whatever feels right for you. From those Long Term Goals,
+              you'll begin to create Short Term Goals- Experiments or Actions
+              Steps that you can begin to try that will be structured using the{" "}
+              <a
+                className="text-primary-500 hover:underline"
+                href="https://kresserinstitute.com/why-it-makes-sense-to-set-smart-goals-for-health/"
+              >
+                SMART model.
+              </a>{" "}
+              We'll use this format because then we can really hone in on and
+              monitor your progress, keeping what works, tweaking or removing
+              what doesn't. Along the way, you'll really get to know yourself
+              and all the ways that result in success- YOUR wins, YOUR way!
+            </p>
           </div>
         </div>
       </section>
@@ -171,23 +169,12 @@ const Home = () => {
           <div className="grid mb-8 lg:mb-12 lg:grid-cols-2">
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
               <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Donec nec felis turpis.{" "}
-                </h3>
                 <p className="my-4">
-                  "Aenean id ex posuere, ultricies nunc eget, fringilla arcu.
-                  Sed finibus lobortis ex, id imperdiet enim congue nec.
-                  Praesent tincidunt semper quam, non bibendum massa mattis
-                  eget.
-                </p>
-                <p className="my-4">
-                  Nulla pharetra sapien sapien, sit amet iaculis lectus congue
-                  in. Nullam sagittis imperdiet est, id consectetur velit
-                  fringilla egestas. Morbi luctus luctus diam et semper.
-                </p>
-                <p className="my-4">
-                  Curabitur ligula felis, sodales et sagittis ut, accumsan id
-                  enim."
+                  "Rachel is one of the most kind and empathetic individuals
+                  I've ever met. She's endlessly patient and cares so much about
+                  helping you work through your thoughts and ideas. She's been
+                  so helpful on my journey of finding a new job, working on some
+                  health issues and more. I can't recommend her enough!!"
                 </p>
               </blockquote>
               <figcaption className="flex justify-center items-center space-x-3">
@@ -197,29 +184,21 @@ const Home = () => {
                   alt="..."
                 />
                 <div className="space-y-0.5 font-medium dark:text-white text-left">
-                  <div>Some Person</div>
+                  <div>N. G.</div>
                   <div className="text-sm font-light text-gray-500 dark:text-gray-400">
-                    Verified Client
+                    From Colorado
                   </div>
                 </div>
               </figcaption>
             </figure>
+
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
               <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Aenean faucibus odio at purus eleifend dictum.
-                </h3>
                 <p className="my-4">
-                  "Fusce venenatis venenatis lacinia. Maecenas vehicula accumsan
-                  vestibulum. Curabitur eu lorem in nisl laoreet aliquet sit
-                  amet vel lacus. Aliquam rhoncus tortor at erat mattis, ut
-                  gravida velit porttitor. Nulla pharetra sapien sapien, sit
-                  amet iaculis lectus congue in.
-                </p>
-                <p className="my-4">
-                  Suspendisse leo urna, congue vel viverra vitae, sagittis eu
-                  nulla. Integer elementum urna nec turpis dignissim, a ornare
-                  tellus porta!"
+                  “Rachel's coaching has not only helped me to set clear and
+                  powerful goals (and actually achieve them!) but also to unpack
+                  defeatist beliefs and change my mindset. This has helped me to
+                  get unstuck in areas that have been frustrating for years!"
                 </p>
               </blockquote>
               <figcaption className="flex justify-center items-center space-x-3">
@@ -229,70 +208,9 @@ const Home = () => {
                   alt="..."
                 />
                 <div className="space-y-0.5 font-medium dark:text-white text-left">
-                  <div>Some Person</div>
+                  <div>B. R.</div>
                   <div className="text-sm font-light text-gray-500 dark:text-gray-400">
-                    Verified Client
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-            <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
-              <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Phasellus nec varius odio, sed vulputate urna
-                </h3>
-                <p className="my-4">
-                  "Pellentesque habitant morbi tristique senectus et netus et
-                  malesuada fames ac turpis egestas.
-                </p>
-                <p className="my-4">
-                  Vestibulum ante ipsum primis in faucibus orci luctus et
-                  ultrices posuere cubilia curae; Vestibulum ante ipsum primis
-                  in faucibus orci luctus et ultrices posuere cubilia curae.
-                </p>
-                <p className="my-4">
-                  Mauris molestie bibendum nibh eget sodales!"
-                </p>
-              </blockquote>
-              <figcaption className="flex justify-center items-center space-x-3">
-                <img
-                  className="w-9 h-9 rounded-full"
-                  src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg"
-                  alt="..."
-                />
-                <div className="space-y-0.5 font-medium dark:text-white text-left">
-                  <div>Another Person</div>
-                  <div className="text-sm font-light text-gray-500 dark:text-gray-400">
-                    Verified Client
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-            <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
-              <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Aliquam tempus eu justo ut convallis
-                </h3>
-                <p className="my-4">
-                  "Quisque nunc augue, pulvinar sit amet efficitur vel, egestas
-                  sit amet orci. Fusce cursus nunc est, maximus lacinia dolor
-                  tristique sit amet.
-                </p>
-                <p className="my-4">
-                  Sed laoreet sem non justo accumsan imperdiet. Interdum et
-                  malesuada fames ac ante ipsum primis in faucibus. "
-                </p>
-              </blockquote>
-              <figcaption className="flex justify-center items-center space-x-3">
-                <img
-                  className="w-9 h-9 rounded-full"
-                  src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg"
-                  alt="..."
-                />
-                <div className="space-y-0.5 font-medium dark:text-white text-left">
-                  <div>Another Person</div>
-                  <div className="text-sm font-light text-gray-500 dark:text-gray-400">
-                    Verified Client
+                    From Canada
                   </div>
                 </div>
               </figcaption>
@@ -300,9 +218,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* <div>What is health coaching?</div>
-      <div>What can it do for you?</div>
-      <div>Testimonials</div> */}
     </div>
   );
 };

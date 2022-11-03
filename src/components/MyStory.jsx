@@ -9,75 +9,84 @@ const MyStory = () => {
         <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
-              {/* <address className="flex items-center mb-6 not-italic">
-                <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
-                  <img
-                    className="mr-4 w-16 h-16 rounded-full"
-                    src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg"
-                    alt="Rachel Cruz"
-                  />
-                  <div>
-                    <a
-                      href="..."
-                      rel="author"
-                      className="text-xl font-bold text-gray-900 dark:text-white"
-                    >
-                      Rachel Cruz
-                    </a>
-                    <p className="text-base font-light text-gray-500 dark:text-gray-400">
-                      Health Coach
-                    </p>
-                    <p className="text-base font-light text-gray-500 dark:text-gray-400">
-                      <div>RRC Health Coaching</div>
-                    </p>
-                  </div>
-                </div>
-              </address> */}
               <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
                 My Story
               </h1>
             </header>
-            <p className="lead">
-              Headline content headline content headline content headline
-              content headline content headline content headline content
-              headline content headline content headline content.
+            <p className="lead">Process of Self-Discovery</p>
+            <p>
+              I was raised in an Asian family (my parents, sister and I were 1st
+              generation immigrants). Filipinos tend to value the tribe over
+              individuality. What that means is if I had a specific need, idea,
+              or belief, they usually got brushed aside in favor of what the
+              entire family unit needed or wanted. So I learned that my desires
+              didn't really matter, that in fact, if I voiced my opinions or
+              desires too loudly, I was being selfish or self-centered. Worse
+              yet, I was invalidated with being overly dramatic or ridiculous.
+              The consequence of believing this mental habit pattern was that I
+              didn't trust myself; I wasn't allowed to. I had a lot of
+              self-doubt, self-worth issues, that any idea I offered wasn't
+              worth listening to.
             </p>
             <p>
-              Body content body content body content body content body content
-              body content body content body content body content body content
-              body content body content body content.
-            </p>
-            <p>
-              Body content body content body content body content body content
-              body content body content body content body content body content
-              body content body content body content.
+              But life has a funny way of working so that I was basically forced
+              to be my own advocate. Over the years, divorce being the main
+              impetus, I had to learn to use my voice. I found deep value in
+              therapy (being heard and feeling validated by a tremendously
+              compassionate therapist). I experienced illness that resulted in
+              multiple miscarriages, mysterious symptoms that landed me in the
+              ER a couple of times, and fatigue and depression that likely
+              contributed to my marriage falling apart. Then I discovered
+              Functional Medicine and the Ancestral Lifestyle that basically
+              turned my physical health around. Having gone through significant
+              life changes myself, what I longed for was that space of
+              validation, encouragement and celebration. Why am I sharing all of
+              this? Because if you're anything like me and this story resonates
+              for you, being heard, making declarations about WHY you want to
+              make changes in how you live and operate, will be the beginning of
+              a significant turning point in your life.
             </p>
             <figure>
               <img className="rounded-lg" src={pic} alt="" />
               <figcaption>Picture of me and my dogs</figcaption>
             </figure>
-            <h2>My Journey</h2>
+            <h2>Who am I? How can I help you?</h2>
             <p>
-              Body content body content body content body content body content
-              body content body content body content body content body content
-              body content body content body content.
+              I am a connector. When you work with me, I'll listen calmly,
+              patiently, and carefully for what your needs and desires are. I'll
+              help you find ways to meet those longings. Amazingly, health
+              coaching is a client-centered profession where you'll use your own
+              intuitive resources to find the answers that ring true for you. My
+              biggest desire as a health coach is to help clients learn how to
+              listen to their instincts and encourage and support their capacity
+              to be their own hero. You don't have to be directed by anyone to
+              achieve what you desire; answers are available from within if you
+              are given the space to contemplate and listen to your inner
+              wisdom. I can help you by being the container, the space from
+              which your possibilities can happen.
             </p>
+            <h2>What is my WHY for being a Health Coach?</h2>
+            <p>I believe in you.</p>
             <p>
-              Body content body content body content body content body content
-              body content body content body content body content body content
-              body content body content body content.
+              I don't say that lightly. In our health coach training program,
+              there is a phrase that represents the totality of a coaching
+              session that I strive to embody: Unconditional positive regard.
+              This means that regardless of what you bring to the session to get
+              coaching on, whatever way you show up, there will be NO JUDGMENT.
+              Period. My job is to be your companion along the way, and to be
+              your mirror so you can see for yourself what you may not recognize
+              that could help you move forward.
             </p>
+            <h2>Currently...</h2>
             <p>
-              Body content body content body content body content body content
-              body content body content body content body content body content
-              body content body content body content.
+              I am a newly graduated health & wellness coach, having trained in
+              the year-long intensive ADAPT Functional Health Coach Training
+              Program through the Kresser Institute. I am working to complete
+              the final requirements to acquire program certification (A-CFHC).
+              After that, I'll be moving toward National Board Certification
+              (NBC-HWC).
             </p>
-            <p>
-              Body content body content body content body content body content
-              body content body content body content body content body content
-              body content body content body content.
-            </p>
-            <h2>More Stuff About Something</h2>
+            {/* <h2>More Stuff About Something</h2>
             <p>
               Body content body content body content body content body content
               body content body content body content body content body content
@@ -188,7 +197,7 @@ const MyStory = () => {
             <p>
               Body content body content body content body content body content
               body content body content!
-            </p>
+            </p> */}
             <p>- Rachel Cruz</p>
           </article>
         </div>
